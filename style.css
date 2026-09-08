@@ -393,3 +393,30 @@ footer {
     transform: rotate(90deg);
     opacity: 1;
 }
+
+/* ================================
+   HERO ATMOSPHERE
+================================ */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: "✦";
+
+    position: absolute;
+    right: 8%;
+    top: 30%;
+
+    font-family: Georgia, serif;
+    font-size: 14rem;
+    font-weight: normal;
+
+    color: rgba(238, 232, 220, 0.025);
+
+    pointer-events: none;
+
+    transform: rotate(-12deg);
+}
