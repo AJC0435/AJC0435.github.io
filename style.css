@@ -339,20 +339,6 @@ footer {
     padding-bottom: 28px;
 }
 
-.section h2::after {
-    content: "✦";
-    display: block;
-
-    margin-top: 22px;
-
-    color: #77746e;
-
-    font-family: Georgia, serif;
-    font-size: 0.8rem;
-
-    letter-spacing: 0.4em;
-}
-
 
 /* Decorative line beneath major sections */
 
